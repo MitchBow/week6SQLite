@@ -1,6 +1,8 @@
 import { deleteDatabaseAsync, SQLiteDatabase, SQLiteProvider, SQLiteStatement, useSQLiteContext } from 'expo-sqlite';
 import { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Button, TextInput } from 'react-native';
+import * as SQLite from 'expo-sqlite';
+
 
 export default function App() {
   
